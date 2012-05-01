@@ -1,6 +1,6 @@
 public class Pokemon {
     private Location m_location;
-    private Move moves[4];
+    private Move[] moves;
     private String name;
     private int pokeNum;
     
@@ -8,6 +8,7 @@ public class Pokemon {
         m_location = new Location();
         name = n;
         pokeNum = num;
+        moves = new Move[4];
         } //end constructor Pokemon
         
     public Location getLocation() {

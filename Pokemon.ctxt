@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Pokemon()
+comment0.params=n\ num
+comment0.target=Pokemon(java.lang.String,\ int)
 comment1.params=
 comment1.target=Location\ getLocation()
 numComments=2
