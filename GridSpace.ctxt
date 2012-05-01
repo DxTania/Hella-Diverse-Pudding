@@ -1,12 +1,16 @@
 #BlueJ class context
 comment0.params=x\ y\ type
 comment0.target=GridSpace(int,\ int,\ java.lang.String)
-comment1.params=x\ y
-comment1.target=void\ addPokemonTo(int,\ int)
+comment1.params=poke\ x\ y
+comment1.target=void\ addPokemonTo(Pokemon,\ int,\ int)
 comment2.params=
 comment2.target=java.lang.String\ getType()
 comment3.params=
-comment3.target=java.awt.Image\ getImage()
+comment3.target=Pokemon\ getPokemon()
 comment4.params=
-comment4.target=Location\ getLocation()
-numComments=5
+comment4.target=void\ select()
+comment5.params=
+comment5.target=java.awt.Image\ getImage()
+comment6.params=
+comment6.target=Location\ getLocation()
+numComments=7
