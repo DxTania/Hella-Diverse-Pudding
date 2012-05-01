@@ -1,22 +1,22 @@
-
-/**
- * Write a description of class Move here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Move
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private Type type;
+    private String name;
+    private int power;
+    private int accuracy;
+    private int pp;
 
     /**
      * Constructor for objects of class Move
      */
-    public Move()
+    public Move(Type tp, String n, int pwr, int acc, int p)
     {
-        // initialise instance variables
-        x = 0;
+        type = tp;
+        name = n;
+        power = pwr;
+        accuracy = acc;
+        pp = p;
     }
 
     /**
@@ -25,9 +25,23 @@ public class Move
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    public int sampleMethod(int y)
+    public Type getType()
     {
-        // put your code here
-        return x + y;
+        return type;
+    }
+    
+    public String getName()
+    {
+        return name;
+    }
+    
+    public int getStr()
+    {
+        return strength;
+    }
+    
+    public int getAcc()
+    {
+        return accuracy;
     }
 }

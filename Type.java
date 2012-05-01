@@ -1,22 +1,21 @@
-
-/**
- * Write a description of class Type here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Type
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private String name;
+    private String[] lessEffective;
+    private String[] superEffective;
+    private String[] notEffective;
 
     /**
      * Constructor for objects of class Type
      */
-    public Type()
+    public Type(String n, String[] lE, String[] sE, String[] nE)
     {
         // initialise instance variables
-        x = 0;
+        name = n;
+        lessEffective = lE;
+        superEffective = sE;
+        notEffective = nE;
     }
 
     /**
@@ -25,9 +24,23 @@ public class Type
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    public int sampleMethod(int y)
+    public String getName()
     {
-        // put your code here
-        return x + y;
+        return name;
+    }
+    
+    public String[] getWeakness()
+    {
+        return lessEffective;
+    }
+    
+    public String[] getStrength()
+    {
+        return superEffective;
+    }
+    
+    public String[] getNotEffective()
+    {
+        return notEffective;
     }
 }
