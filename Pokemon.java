@@ -3,6 +3,7 @@ public class Pokemon {
     private Move[] moves;
     private String name;
     private int pokeNum;
+    private Stats stats;
     
     public Pokemon(String n, int num) {
         m_location = new Location();
